@@ -1,0 +1,41 @@
+   footer{
+            display: grid;
+            font-size: 14;
+            background:#2B2B2B;
+            color:#fff;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            
+        }
+       
+        .colum1 ul li{
+             margin-top: 4vw;
+            color: aliceblue;
+        }
+        .colum2 ul li{
+            margin-top: 4vw;
+            float:right;
+            color:aliceblue;
+            margin-right: 5vw;
+        }
+        .footer2{
+            padding-bottom: 2vw;
+        }
+       
+        .colum4 ul li{
+            margin-top: 0vw;
+            float:right;
+            color:aliceblue;
+            margin-right: 5vw;
+        }
+        footer ul li{
+            list-style: none;
+            text-decoration: none;
+            color:#fff;
+            display: inline-block;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        footer ul li:hover{
+            text-decoration: underline;
+        }

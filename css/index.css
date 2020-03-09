@@ -1,0 +1,261 @@
+  body{font-family: 'Roboto', sans-serif;
+        margin: 0 auto;
+        padding:0;
+        overflow-x: hidden;
+        background-image: url('http://i.cubeupload.com/NjsJx8.png');
+    }
+    * {
+        box-sizing: border-box;
+     }
+
+    body {
+      margin: 0px;
+    
+    }
+
+
+
+
+            .hero-image{
+                position: relative;
+                z-index: -1;            
+
+            }
+            .hero-img{
+                width: 100%;
+                height: auto;
+                opacity: .90;
+
+            }
+
+            .text-img{
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 600;
+                font-size: 40;
+                border: 0PX solid #000;
+                padding: 20;
+                background: #002326;
+                opacity: 0.8;
+                color: #fff;
+                opacity: .60;
+
+            }
+
+            .content1 h1{
+                text-align: center;
+                padding-top:3vw;
+                padding-bottom: 1vw;
+                font-size:50;
+                font-weight: 100;
+                  font-family: 'segoe ui';
+            }
+
+
+            .ambele{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                margin-bottom: 7vw;
+            }
+            .prima{
+
+              background: #FFFFfb;
+              position: relative;
+              margin-left: 5vw; 
+              margin-bottom: 50px;
+              box-shadow: 0px 0px 20px #000;
+                 z-index: 999;   
+            }
+             .adoua{
+
+
+              position: relative;
+              margin-right: 2vw;
+              margin-left: 2vw;
+              margin-bottom: 50px;
+              background: #FFFFfb;
+              box-shadow: 0px 0px 20px #000;
+            }
+             .atreia{
+
+              background: #FFFFfb;
+              position: relative;
+              margin-right: 5vw;
+              margin-bottom: 50px;
+              box-shadow: 0px 0px 20px #000;
+            }
+            .hero-img1{
+                width: 100%;
+                height: auto;
+            }
+            .ambele h3{
+                text-align: center;
+                font-weight: 100;
+                font-size: 25;
+                padding-top: 0vw;
+                padding-bottom: 1.vw;
+            }
+            .ambele p{
+                padding-left: 35px;
+                text-indent: 10px;
+                padding-right: 35px;
+                font-size: 15;
+            }
+
+
+          .ambele  .button{
+
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 2vw;
+                margin-top:3vw;
+                width: 20vw;
+                height: 4vw;
+                background: none;
+                border: 2px solid #F8B500;
+                color:#272B30;
+                font-weight: 600;
+                font-size: 19;
+              border-radius: 0px;
+               transition:0.5s;
+              cursor: pointer;
+
+            }
+
+              a:link{
+                 text-decoration: none ;
+            }
+            .button:hover{
+               font-weight: 600;
+                background:  #393E46;
+                border: none;
+                color:#fff;
+                transition:0.5s;
+
+            }
+            @media screen and (min-device-width: 630px) and (max-device-width: 800px) { 
+             .text-img{
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 600;
+                font-size: 20;
+                border: 0PX solid #000;
+                padding: 20;
+                background: #002326;
+                opacity: 0.8;
+                color: #fff;
+                opacity: .60;
+
+            }
+
+            }
+            @media screen and (min-device-width: 320px) and (max-device-width: 699px) { 
+             .prima{
+
+                  background: #FFFFfb;
+                  position: relative;
+                  margin-left: 4vw !important; 
+                  margin-bottom: 50px;
+                 margin-right: 4vw !important;
+                    }
+             .adoua{
+                  position: relative;
+                  margin-right: 4vw!important;
+                  margin-left: 4vw !important;
+                  margin-bottom: 50px;
+                  background: #FFFFfb;
+                }
+             .atreia{
+
+                  background: #FFFFfb;
+                  position: relative;
+                  margin-right: 4vw !important;
+                  margin-left: 4vw !important;
+                  margin-bottom: 50px;
+                }
+                .ambele .button{
+
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 3vw;
+                margin-top:3vw;
+                width: 35vw;
+                height: 10vw;
+                background:  #C2772A;
+                    border: none;
+                color:#fff;
+                font-weight: 200;
+                font-size: 17;
+                 text-decoration-color:#FC3C3C ;
+
+            }
+                 .text-img{
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 600;
+                font-size: 14;
+                border: 0PX solid #000;
+                padding: 15;
+                background: #002326;
+                color: #fff;
+                opacity: .60;
+
+            }
+.content1 h1 {
+    text-align: center;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    font-size: 33px;
+    font-weight: 100;
+}
+            }
+            @media screen and (min-device-width: 800px) and (max-device-width: 950px) { 
+             .text-img{
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: 600;
+                font-size: 25;
+                border: 0PX solid #000;
+                padding: 20;
+                background: #002326;
+                color: #fff;
+                opacity: .60;
+
+            }
+            }
+            @media screen and (min-device-width: 700px) and (max-device-width: 1049px) { 
+
+                .prima{
+
+                  background:#FFFFfb;
+                  position: relative;
+                  margin-left: 4vw; 
+                  margin-bottom: 50px;
+                    }
+             .adoua{
+                  position: relative;
+                  margin-right: 2vw;
+                  margin-left: 2vw;
+                  margin-bottom: 50px;
+                  background: #FFFFfb;
+                }
+             .atreia{
+
+                  background:#FFFFfb;
+                  position: relative;
+                  margin-right: 0vw !important;
+                  margin-left: 4vw !important;
+                  margin-bottom: 50px;
+                }
+
+
+           }
+
