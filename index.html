@@ -1,0 +1,112 @@
+    <html>
+        <head>
+            <title> Acasa -- Site blanao</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+            <link rel="stylesheet" type="text/css" href="css/footer.css">
+            <link rel="stylesheet" type="text/css" href="css/navbar.css">
+            <link rel="stylesheet" type="text/css" href="css/scroll-bar.css">
+            <link rel="icon" href="/faviconn.ico" type="image/x-icon" />
+            <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+            <meta name="description" content="Acasa -- Site dedicat listarii site-urilor reate de mine de la inceputuri pana acum.">
+            <meta name="keywords" content="HTML,CSS,Proiect Blanaos,">
+            <meta name="author" content="Cucu Toma Daniel">
+            <script src="jquery-content.jquery"></script> 
+        </head>
+
+      <script type="text/javascript">
+            $(document).ready(function(){
+            $('#navbar').load('navbar.html');
+            $('#footer').load('footer-html.html');
+            $('#nota').load('nota.html');
+            });
+         </script>
+        
+        
+        <style>
+
+          
+        </style>
+
+        <body>
+<script>
+var Webflow = Webflow || [];
+Webflow.push(function() {
+
+  // Load cookie library
+  $.getScript('https://cdn.rawgit.com/js-cookie/js-cookie/v2.1.2/src/js.cookie.js', function() {
+
+    // If cookie found (already shown)
+    if(Cookies.get('notice') !== undefined) {
+
+      // Hide cookie notice (change jQuery selector to match your own)
+      $('.modal-wrapper').remove();
+    }
+
+    // On button click
+    $('.modal-wrapper').click(function() {
+      // Calculate when you want to display the notice again (change 15 to number of minutes you want)
+      var expireTime = new Date(new Date().getTime() + 60000 * 60 * 24 * 60);
+      // Set this cookie
+      Cookies.set('notice', 'shown', { expires: expireTime });
+    });
+  });
+
+});
+</script>
+        <div id="navbar"></div>
+
+
+            <div class="hero-image">
+                <img src="img/hero-image-1.jpg" alt="noi doi" class="hero-img">
+                <p class="text-img"> Cum nu stiam ce site sa fac <br /> am facut unul despre cum am invatat eu Web Development si Web Design</p>
+            </div>
+
+            <div class="content1">
+                <h1>Cum am invatat web DEV?</h1>
+                <div class="ambele">
+
+                    <div class="prima">
+                        <img src="img/responsive-site.png" class="hero-img1">
+                       <h3>Primele mele siteuri responsive</h3>
+                        <p>Aceasta sectiune contine doar siturile care sunt responsive si se muleaza pe diferite rezolutii </p>
+                        <p>Ele au fost create folosind librari online sau framework-uri cum ar fi Bootstrap si jQuery</p>
+                        <form>
+                          <input class="button" type="button" value="Vezi Resurse" onclick="window.location.href='web-dev.html'" />
+                       </form>
+                    </div>
+                     <div class="adoua">
+                        <img src="img/udacity.png" class="hero-img1">
+                       <h3>Cursuri Urmate</h3>
+                        <p>Ca si in celelalte sectiuni aici va voi arata unele cursuri pe care le-am urmat pentru a invata web dev  </p>
+                        <p>Sunt cursuri destul de recente si destul de simple la unele dintre ele primind si certificat de completare sau primit dupa trecerea unor examene </p>
+                    <form>
+                        <input class="button" type="button" value="Vezi Resurse" onclick="window.location.href='cursuri.html'" />
+                   </form>
+                    </div>
+
+                      <div class="atreia">
+                        <img src="img/bootstrap4.jpg" class="hero-img1">
+                       <h3>Primele mele siteuri create</h3>
+                        <p>Aceasta sectiune contine unele siteuri care le-am creat acum mult timp in urma si aratau cat de cat decent  </p>
+                        <p>Pe vremea aia nu stiam ca exista librarii online si framework-uri, ele erau create din HTML si CSS pur</p>
+                    <form>
+                      <input class="button" type="button" value="Vezi Resurse" onclick="window.location.href='web-dev-not-res.html'" />
+                   </form>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div id="nota"></div>
+              <div id="footer"></div>
+
+
+
+      </body>
+    </html>

@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title> Contact -- Site Blanao</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="css/footer.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="css/scroll-bar.css">
+        <link rel="icon" href="/faviconn.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/faviconn.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <meta name="description" content="Contact -- Intra in contact cu mine trimitandu-mi un mail... Sau asa ar trebui sa fie, formularul de contact nu merge ">
+        <meta name="keywords" content="HTML,CSS,Proiect Blanaos,Contact">
+        <meta name="author" content="Cucu Toma Daniel">
+        <script src="jquery-content.jquery"></script> 
+    </head>
+    
+     <script type="text/javascript">
+        $(document).ready(function(){
+        $('#navbar').load('navbar.html');
+        $('#footer').load('footer-html.html');
+        $('#nota').load('nota.html');
+        });
+     </script>
+    
+    
+    
+    <body>
+    
+     <div id="navbar"></div>
+
+    <div class="hero-image">
+          <img src="img/hero-img-contact.jpg" alt="noi doi" class="hero-img">
+    </div>
+     <div class="container">
+       <div class="continut">
+        <h1>Formular de Contact </h1>
+        <p>Aici ar trebui sa fie un formular de contact funcrional, dar nu am reusit sa integrez cod php in site si formularul cu face nimic :)</p>
+         <p>Mai jos am pus o harta folosing google maps cu un iframe  ca nu fie pagina chiar asa de  goala </p>
+        <p>PS: Citeste mai jos descrierea in care povestesc ai multe despre modul cum am facut siteul </p>
+        </div>
+         <div class="form">
+            <form action="/action_page.php">
+               <label for="fname"> Nume</label>
+               <input type="text" id="fname" name="firstname" placeholder="Numele tau">
+               <label for="telefon">Telefon</label>
+                <input type="tel"  name="telefon" placeholder="Numarul tau de telefon">
+                <label for="telefon">Email</label>
+                <input type="email"  name="Emial" placeholder="E-mail">
+     
+                <label for="subject">Mesaj</label>
+                <textarea id="subject" name="subject" placeholder="Scrie mesajul tau ..." style="height:170px"></textarea>
+                <input type="submit" value="Trimite">
+             </form>
+        </div>
+      </div>
+        
+        <div class="map">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d827.0998837086162!2d24.143902369424854!3d45.790800818680964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sro!4v1546529317315" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </div>
+        
+          <div id="nota"></div>
+        
+          <div id="footer"></div>
+ 
+    </body>
+</html>
